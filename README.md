@@ -30,7 +30,7 @@ e-mail: thor.markussen@gmail.com
 
 7) Type CompatibilityTest to run a small script that checks if you have the correct setup
 
-8) Type “edit ParChar” (or edit ParChar_run if working with multiple images) to open the script in the editor
+8) Type “edit ParChar” (or edit ParChar_mult if working with multiple images) to open the script in the editor
 
 9) Specify the input values and run the code
 
