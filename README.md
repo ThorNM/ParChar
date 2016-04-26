@@ -1,6 +1,8 @@
 # ParChar
 Characterization of suspended particles through image processing in Matlab
 
+/ Note that the code functionality is described in much more detail in a technical software metadata paper currently in review (April 2016) in Journal of Open Research Software
+
 Author: Thor Nygaard Markussen
 
 License: This software is distributed under the MIT license (see license.txt)
