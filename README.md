@@ -14,7 +14,8 @@ Version: 1
 Contact:
 e-mail: thor.markussen@gmail.com
 
-HOW TO RUN:
+# HOW TO RUN:
+
 1) Push the "Download zip" button in GitHub.
 
 2) Unzip the file in a FOLDER on your computer
@@ -33,6 +34,6 @@ HOW TO RUN:
 
 9) Specify the input values and run the code
 
-REFERENCE:
+# REFERENCE:
 Please reference the paper in which the code is described in your work or papers if you use this code:
 Markussen, T.N. (2016). ParChar - Characterization of suspended particles through image processing in Matlab, Journal of Open Research Software
