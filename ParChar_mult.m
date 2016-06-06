@@ -64,10 +64,10 @@ for l=1:size(files,1)
 
     if height(statsDS)>10000 % Save to file whenever there's more than 10000 psds (clear memory afterwards)
         save(fullfile(Savepath,['Partcam_' num2str(l) '.mat']),'statsDS')
-        clearvars -except psdDS Path Savepath ImHeight ImWidth MeasDepth SubDiff Lvl MaxInt CalcPSD PlotResults l files o 
+        clearvars -except psdDS Path Savepath ImHeight ImWidth MeasDepth SubDiff BlockSize Lvl MaxInt CalcPSD PlotResults l files o 
         statsDS=table();
     else
-        clearvars -except psdDS statsDS Path Savepath ImHeight ImWidth MeasDepth SubDiff Lvl MaxInt CalcPSD PlotResults l files o
+        clearvars -except psdDS statsDS Path Savepath ImHeight ImWidth MeasDepth SubDiff BlockSize Lvl MaxInt CalcPSD PlotResults l files o
     end
     waitbar(l/size(files,1))
 end
